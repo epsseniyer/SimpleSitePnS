@@ -1,0 +1,21 @@
+$primary-color: #3498db;
+$secondary-color: #e74c3c;
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  color: $primary-color;
+}
+
+header, footer {
+  background-color: $secondary-color;
+  padding: 10px;
+  color: #fff;
+}
+
+.container {
+  background-color: #fff;
+  padding: 20px;
+  margin: 10px;
+  border: 1px solid $primary-color;
+}
